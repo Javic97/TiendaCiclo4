@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 export const Home = () => {
     return (
         <Fragment>
-            <h1 id="encabezado_productos">Ultimos Productos</h1>
+            <h2 id="encabezado_productos">Nuevos Productos</h2>
 
             <section id="productos" className='container mt-5'>
                 <div className='row'>
