@@ -1,11 +1,16 @@
 import './App.css';
 import React from 'react';
+import Header from './components/layout/Header';
+import { Footer } from './components/layout/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1>Tienda de cafe - Cafe Enigma</h1>
-      <img src="./logo_tienda.png" alt="Aqui va el logo"></img>
+       <Header />
+       <center>Espacio para contenido</center>
+       <center>Espacio para contenido</center>
+       <center>Espacio para contenido</center>
+       <Footer />
     </div>
   );
 }
